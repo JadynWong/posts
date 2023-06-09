@@ -211,6 +211,8 @@ private async Task CreateApplicationsAsync()
 }
 ```
 
+Run DbMigrator project.
+
 ### Step 3. Modify `OnApplicationInitialization`.
 ```diff
 public override void OnApplicationInitialization(ApplicationInitializationContext context)
